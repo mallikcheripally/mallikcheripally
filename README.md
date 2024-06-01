@@ -23,10 +23,7 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=mallikcheripally&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=mallikcheripally&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mallikcheripally&layout=compact&theme=dark)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mallikcheripally&theme=dark)
 
 ### 📫 Connect with Me
-- [GitHub](https://github.com/mallikcheripally)
-- [LinkedIn](https://www.linkedin.com/in/mallikcheripally/)
+<p><a href="https://github.com/mallikcheripally" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>   <a href="https://www.linkedin.com/in/mallikcheripally" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></p>
