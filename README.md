@@ -20,8 +20,5 @@
 ### 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=mallikcheripally&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
-### 📊 GitHub Stats
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mallikcheripally&theme=dark)
-
 ### 📫 Connect with Me
 <p><a href="https://github.com/mallikcheripally" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>   <a href="https://www.linkedin.com/in/mallikcheripally" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a></p>
