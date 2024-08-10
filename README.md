@@ -2,11 +2,6 @@
 
 <p>Welcome to my page! </br> I'm Mallik, a Staff Frontend Engineer at <b>Deepen AI</b> from <b>Hyderabad, India</b>.
 
-
-<p align="left">
-  <img src="https://hits.dwyl.com/mallikcheripally/mallikcheripally.svg?style=flat-square" alt="View Counter" />
-</p>
-
 <h3>Things I code with</h3>
 <p>
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
