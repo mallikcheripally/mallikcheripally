@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Mallik Cheripally — Staff Engineer at Deepen AI, Hyderabad">
+  <title>Mallik Cheripally — Staff Engineer</title>
+
+  <defs>
+    <radialGradient id="glow" cx="0.82" cy="0.12" r="0.72">
+      <stop offset="0%" stop-color="#C2761B" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#2D6FD1" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#C2761B" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#C8D0DC" stroke-width="1" stroke-opacity="0.35"/>
+    </pattern>
+
+    <clipPath id="card">
+      <rect x="1" y="1" width="1198" height="318" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif; }
+
+    .name    { fill: #111721;   font-size: 46px; font-weight: 650; letter-spacing: -1.2px; }
+    .role    { fill: #5A6577;  font-size: 19px; font-weight: 450; }
+    .rolehi  { fill: #111721;   font-weight: 600; }
+    .eyebrow { fill: #2D6FD1;   font-size: 14px; font-weight: 500; letter-spacing: 1.6px; }
+    .label   { fill: #5A6577;  font-size: 14px; letter-spacing: 0.4px; }
+    .head    { fill: #C2761B; font-size: 13px; font-weight: 600; letter-spacing: 1.4px; }
+    .thesis  { fill: #5A6577;  font-size: 14px; letter-spacing: 2px; }
+    .lede    { fill: #111721;   font-size: 18px; font-weight: 500; }
+
+    .rail    { fill: none; stroke: #C8D0DC;   stroke-width: 2.5; stroke-linecap: round; }
+    .branchA { fill: none; stroke: #2D6FD1;   stroke-width: 2.5; stroke-linecap: round; }
+    .branchB { fill: none; stroke: #C2761B; stroke-width: 2.5; stroke-linecap: round; }
+
+    .node    { fill: #FCFCFD; stroke: #C8D0DC;   stroke-width: 2.5; }
+    .nodeA   { stroke: #2D6FD1; }
+    .nodeB   { stroke: #C2761B; }
+
+    /* --- entrance: one orchestrated sequence, left to right --- */
+    .draw     { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 1.1s cubic-bezier(.22,.61,.36,1) forwards; }
+    .draw-a   { stroke-dasharray: 700;  stroke-dashoffset: 700;  animation: draw-a .8s cubic-bezier(.22,.61,.36,1) .45s forwards; }
+    .draw-b   { stroke-dasharray: 700;  stroke-dashoffset: 700;  animation: draw-a .8s cubic-bezier(.22,.61,.36,1) .8s forwards; }
+    .pop      { transform-box: fill-box; transform-origin: center; opacity: 0; animation: pop .5s cubic-bezier(.34,1.56,.64,1) forwards; }
+    .rise     { opacity: 0; animation: rise .7s cubic-bezier(.22,.61,.36,1) forwards; }
+    .blink    { animation: blink 1.15s steps(1) 1.9s infinite; }
+    .halo     { fill: #C2761B; opacity: 0; transform-box: fill-box; transform-origin: center;
+                 animation: halo 2.6s ease-out 1.9s infinite; }
+
+    @keyframes draw   { to { stroke-dashoffset: 0; } }
+    @keyframes draw-a { to { stroke-dashoffset: 0; } }
+    @keyframes pop    { from { opacity: 0; transform: scale(.2); } to { opacity: 1; transform: scale(1); } }
+    @keyframes rise   { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink  { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @keyframes halo   { 0% { opacity: .45; transform: scale(1); } 70%, 100% { opacity: 0; transform: scale(3.4); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .draw, .draw-a, .draw-b { stroke-dashoffset: 0; animation: none; }
+      .pop, .rise { opacity: 1; animation: none; }
+      .blink { opacity: 1; animation: none; }
+      .halo  { opacity: 0; animation: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="1198" height="318" rx="16" fill="#FCFCFD"/>
+  <g clip-path="url(#card)">
+    <rect x="1" y="1" width="1198" height="318" fill="url(#grid)" opacity="0.8"/>
+    <rect x="1" y="1" width="1198" height="318" fill="url(#glow)" opacity="0.5"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="16" fill="none" stroke="#E1E5EC" stroke-width="1.5"/>
+
+  <!-- identity -->
+  <g class="rise" style="animation-delay:.05s">
+    <text class="mono eyebrow" x="64" y="66">ON BRANCH MAIN <tspan class="blink" dx="4">&#9612;</tspan></text>
+  </g>
+  <g class="rise" style="animation-delay:.15s">
+    <text class="mono name" x="64" y="118">mallik cheripally</text>
+  </g>
+  <g class="rise" style="animation-delay:.3s">
+    <text class="sans role" x="64" y="154">
+      <tspan class="rolehi">Staff Engineer</tspan><tspan> at Deepen AI  &#183;  Hyderabad, India</tspan>
+    </text>
+  </g>
+
+  <g class="rise" style="animation-delay:.45s">
+    <text class="mono thesis" x="1136" y="118" text-anchor="end">IDEA &#8594; DESIGN &#8594; SHIP &#8594; SCALE</text>
+  </g>
+  <g class="rise" style="animation-delay:.55s">
+    <text class="sans lede" x="1136" y="154" text-anchor="end">interfaces that stay fast when the data doesn&#8217;t</text>
+  </g>
+
+  <!-- commit graph -->
+  <g>
+    <!-- main line -->
+    <path class="rail draw" d="M64 254 H1136"/>
+
+    <!-- branch A: open source, arcs above -->
+    <path class="branchA draw-a" d="M300 254 C332 254 340 212 372 212 H628 C660 212 668 254 700 254"/>
+    <!-- branch B: product work, arcs below -->
+    <path class="branchB draw-b" d="M628 254 C660 254 668 292 700 292 H948 C980 292 988 254 1020 254"/>
+
+    <!-- commit nodes on main -->
+    <circle class="node pop" cx="120"  cy="254" r="5.5" style="animation-delay:.55s"/>
+    <circle class="node pop nodeA" cx="300"  cy="254" r="5.5" style="animation-delay:.7s"/>
+    <circle class="node pop" cx="464"  cy="254" r="5.5" style="animation-delay:.85s"/>
+    <circle class="node pop nodeB" cx="628"  cy="254" r="5.5" style="animation-delay:1s"/>
+    <circle class="node pop nodeA" cx="700"  cy="254" r="5.5" style="animation-delay:1.15s"/>
+    <circle class="node pop" cx="864"  cy="254" r="5.5" style="animation-delay:1.3s"/>
+    <circle class="node pop nodeB" cx="1020" cy="254" r="5.5" style="animation-delay:1.45s"/>
+
+    <!-- nodes on branches -->
+    <circle class="node pop nodeA" cx="500" cy="212" r="5.5" style="animation-delay:.95s"/>
+    <circle class="node pop nodeB" cx="820" cy="292" r="5.5" style="animation-delay:1.25s"/>
+
+    <!-- HEAD -->
+    <circle class="halo" cx="1108" cy="254" r="7"/>
+    <circle class="pop" cx="1108" cy="254" r="7" fill="#C2761B" style="animation-delay:1.6s"/>
+  </g>
+
+  <!-- graph labels -->
+  <g class="rise" style="animation-delay:1.05s">
+    <text class="mono label" x="500" y="196" text-anchor="middle">open source</text>
+  </g>
+  <g class="rise" style="animation-delay:1.35s">
+    <text class="mono label" x="820" y="275" text-anchor="middle">design systems</text>
+  </g>
+  <g class="rise" style="animation-delay:1.7s">
+    <text class="mono head" x="1136" y="230" text-anchor="end">HEAD</text>
+  </g>
+</svg>
