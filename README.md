@@ -18,40 +18,53 @@
 
 ## What I do
 
-Ten years in. I build products end to end — framing the problem, designing the product, architecting the
-frontend, implementing the product, building the tooling underneath it, and then the performance work 
-that decides whether people actually keep using it. The interesting part has never been any one of those. 
-It's that they constrain each other.
+Ten years building for the web. At **Deepen AI** I've taken more than five products from an empty
+repo to production: proposing the features, designing them, and writing them. I lead and mentor the
+engineers working alongside me.
 
-At **Deepen AI** I've taken more than five products from an empty repo to something customers use
-daily, and I lead and mentor the engineers building alongside me. Different domains, but the same
-shape of problem each time: dense, technical workflows that have to feel simple, stay fast as the
-data grows, and stay maintainable as the team around them grows.
+The work tends to be the same shape each time. Dense, technical workflows that have to feel simple,
+stay fast as the data grows, and stay maintainable as the team does.
 
 <br>
 
 ## Selected work
 
-**Products from zero at Deepen.** Five products taken from first spec to launch — scope,
-architecture, interaction design, and the calls about what not to build.
+**Products, end to end.** More than five products from empty repo to production. I came up with the
+features, designed them, and built them. I've also researched vision-model pipelines for automated
+labelling.
 
-**Design systems, and the UX underneath them.** A system of ~150 components serving 8–10 products
-and a component surface in the thousands. Tokens and interaction patterns that make separate
-products feel like one, and make the accessible, considered version of a feature the easy one to
-ship.
+**Design systems, and the UX underneath them.** A design system of around 150 components serving
+8–10 products, on top of a component surface in the thousands. Tokens and interaction patterns that
+make separate products feel like one.
 
-**Build systems and developer experience.** Keeping a very large frontend fast to work in is its own
-engineering problem, and it's a thread that runs through most of what I do. Most recently a
-webpack 5 → Rspack migration I took end to end: **dev builds from 30–60s down to 1–2s, production
-from 4–5 minutes to ~15s**, on a codebase of hundreds of screens and thousands of components. Fast
-feedback loops are a force multiplier on everything else a team ships.
+**Build systems and developer experience.** A webpack 5 to Rspack migration I took end to end.
+**Dev builds went from 30–60s to 1–2s, production builds from 4–5 minutes to about 15s**, on a
+codebase of hundreds of screens and thousands of components. Keeping a large frontend fast to work
+in is a thread that runs through most of what I do.
 
-**Performance as a feature.** Interfaces carrying data volumes that break the usual patterns —
-large scenes, long-running edit sessions, thousands of live objects held in memory at once. Custom
-render and memory strategies to keep all of it at interactive speed.
+**Performance at scale.** Interfaces carrying data volumes that break the usual patterns: large
+scenes, long-running edit sessions, thousands of live objects held in memory at once. Custom render
+and memory strategies to keep all of it at interactive speed.
 
 **Direction and mentorship.** Setting technical direction, reviewing for craft rather than just
 correctness, and growing the engineers who take the work forward.
+
+<br>
+
+## How I work
+
+I start from the problem rather than a spec. Most of what I've built began as something I proposed.
+
+I design it before I build it, and I keep redesigning while I build. Being the same person for both
+means the design can change the moment the code says it should.
+
+I write the code, including the parts nobody volunteers for: the state model, the edge cases, the
+empty states.
+
+I keep the tooling fast on purpose. Build times, local setup and feedback loops are part of the
+work, not cleanup for afterwards.
+
+I review for craft as much as correctness, and I mentor the engineers I work with.
 
 <br>
 
@@ -65,24 +78,6 @@ correctness, and growing the engineers who take the work forward.
 | **[deep-equal-js](https://github.com/mallikcheripally/deep-equal-js)** | Deep equality checks, written for the hot path | `v0.2.2` |
 | **[react-refocus](https://github.com/mallikcheripally/react-refocus)** | Focus management for React — keyboard navigation and a11y primitives that don't fight the DOM | `v0.0.2` |
 <!-- shipping:end -->
-
-<br>
-
-## How I work
-
-**I start at the problem, not the ticket.** The most expensive thing a team can build is a feature
-that shouldn't exist. Getting to "what is this actually for" is part of the job.
-
-**Performance is a design constraint, not a phase.** You can't optimise your way out of an
-architecture that assumed the data would stay small. Memory and frame budgets belong in the first
-sketch, next to the layout.
-
-**Design systems are leverage.** A component used four hundred times and one used once are
-different products. Only one of them can afford to be clever, and getting that boundary right is
-worth more than any individual screen.
-
-**The last 5% is the product.** Empty states, the thing that doesn't jump when it loads, the motion
-that tells you what just happened. Users never see the architecture. They only ever see this.
 
 <br>
 
@@ -123,25 +118,16 @@ that tells you what just happened. Users never see the architecture. They only e
 
 <br>
 
-## The graph
+## Contribution graph
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mallikcheripally/mallikcheripally/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mallikcheripally/mallikcheripally/output/snake.svg">
-  <img alt="Contribution graph" src="https://raw.githubusercontent.com/mallikcheripally/mallikcheripally/output/snake.svg" width="100%">
-</picture>
-
-<br><br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mallikcheripally&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&title_color=F0A868&text_color=8792A6&icon_color=6AA9FF&ring_color=F0A868">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mallikcheripally&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=00000000&title_color=C2761B&text_color=5A6577&icon_color=2D6FD1&ring_color=C2761B" height="160">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=mallikcheripally&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=F0A868&text_color=8792A6">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=mallikcheripally&layout=compact&langs_count=6&hide_border=true&bg_color=00000000&title_color=C2761B&text_color=5A6577" height="160">
+  <img alt="My contribution graph being slowly eaten by a snake" src="https://raw.githubusercontent.com/mallikcheripally/mallikcheripally/output/snake.svg" width="100%">
 </picture>
 
 </div>
+
+<br>

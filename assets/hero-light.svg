@@ -85,7 +85,7 @@
   </g>
 
   <g class="rise" style="animation-delay:.45s">
-    <text class="mono thesis" x="1136" y="118" text-anchor="end">IDEA &#8594; DESIGN &#8594; SHIP &#8594; SCALE</text>
+    <text class="mono thesis" x="1136" y="118" text-anchor="end">IDEA &#8594; DESIGN &#8594; BUILD &#8594; SHIP &#8594; SCALE</text>
   </g>
   <g class="rise" style="animation-delay:.55s">
     <text class="sans lede" x="1136" y="154" text-anchor="end">interfaces that stay fast when the data doesn&#8217;t</text>
@@ -120,11 +120,14 @@
   </g>
 
   <!-- graph labels -->
+  <g class="rise" style="animation-delay:.95s">
+    <text class="mono label" x="64" y="236">products</text>
+  </g>
   <g class="rise" style="animation-delay:1.05s">
-    <text class="mono label" x="500" y="196" text-anchor="middle">open source</text>
+    <text class="mono label" x="500" y="196" text-anchor="middle">design systems</text>
   </g>
   <g class="rise" style="animation-delay:1.35s">
-    <text class="mono label" x="820" y="275" text-anchor="middle">design systems</text>
+    <text class="mono label" x="820" y="275" text-anchor="middle">build tooling</text>
   </g>
   <g class="rise" style="animation-delay:1.7s">
     <text class="mono head" x="1136" y="230" text-anchor="end">HEAD</text>
