@@ -73,10 +73,10 @@ I review for craft as much as correctness, and I mentor the engineers I work wit
 <!-- shipping:start -->
 | Project | What it is | |
 | :-- | :-- | :-- |
-| **[session-steward](https://github.com/mallikcheripally/session-steward)** | Local session manager for Codex and Claude Code — keeps context, history and state where you can actually see it | `v0.8.0` · 1.9k downloads/mo |
-| **[colore-js](https://github.com/mallikcheripally/colore-js)** | Color toolkit: conversion across every CSS format, manipulation, harmony generation, and contrast/accessibility analysis | `v1.4.3` · 620 downloads/mo |
-| **[deep-equal-js](https://github.com/mallikcheripally/deep-equal-js)** | Deep equality checks, written for the hot path | `v0.2.2` · 142 downloads/mo |
-| **[react-refocus](https://github.com/mallikcheripally/react-refocus)** | Focus management for React — keyboard navigation and a11y primitives that don't fight the DOM | `v0.0.2` · 96 downloads/mo |
+| **[session-steward](https://github.com/mallikcheripally/session-steward)** | Local session manager for Codex and Claude Code — keeps context, history and state where you can actually see it | `v0.9.0` · 1.9k downloads/mo |
+| **[colore-js](https://github.com/mallikcheripally/colore-js)** | Color toolkit: conversion across every CSS format, manipulation, harmony generation, and contrast/accessibility analysis | `v1.4.3` · 659 downloads/mo |
+| **[deep-equal-js](https://github.com/mallikcheripally/deep-equal-js)** | Deep equality checks, written for the hot path | `v0.2.2` · 148 downloads/mo |
+| **[react-refocus](https://github.com/mallikcheripally/react-refocus)** | Focus management for React — keyboard navigation and a11y primitives that don't fight the DOM | `v0.0.2` · 101 downloads/mo |
 <!-- shipping:end -->
 
 <br>
